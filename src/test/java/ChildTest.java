@@ -9,7 +9,7 @@ public class ChildTest {
     public void testMethodOverride() {
         Child child = new Child();
         String result = child.method();
-        assertEquals("This is the overrided method!", result);
+        assertEquals("This is the overriden method!", result);
     }
 
     @Test
